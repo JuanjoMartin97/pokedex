@@ -1,0 +1,29 @@
+.pokemonCard{
+    list-style: none;
+    font-size: 1.4rem ;
+    text-align: center;
+    transition: transform .2s;
+    margin: 0 auto;
+}
+
+.pokemonCard:hover .pokemonCardImage{
+    background-color: yellow ;
+    transform: scale(1.1);
+    }
+
+
+.pokemonCardImage{
+    background-color: rgb(224, 228, 222);
+    border-radius: 50px;
+}
+
+
+
+
+@media (max-width:560px){
+    .pokemonCardImage{
+        width: 15rem;
+        height: auto ;
+    }
+}
+

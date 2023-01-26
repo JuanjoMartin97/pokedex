@@ -1,0 +1,21 @@
+.pokemonGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 25%);
+    gap: 40px;
+    padding: 40px;
+    justify-content: center;
+}
+
+@media (max-width:930px){
+    .pokemonGrid {
+        grid-template-columns: 50% 50%;
+    }
+}
+@media (max-width:550px){
+    .pokemonGrid {
+        grid-template-columns: 100%;
+    }
+}
+
+
+
